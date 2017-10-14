@@ -1,0 +1,50 @@
+#content-one {
+    position: relative;
+    height: 45vh;
+}
+
+#content-one-overlay {
+    background-color: rgba(0,0,0,1);
+    height: 105vh;
+}
+
+#content-one-overlay>.row {
+    position: relative;
+    top: 5%;
+}
+
+#content-one-overlay>.row>.col-md-6>h1{
+    color: white;
+    font-size: 7rem;
+}
+
+#content-one-overlay>.row>.col-md-6 .text-muted {
+    color: rgba(255,255,255,0.6) !important;
+}
+
+#input-field {
+    width: 100%;
+}
+
+#output-field {
+    width: 100%;
+}
+
+#button-convert {
+    align-self: center;
+}
+
+#output {
+    color: #ffffff;
+    white-space: pre-line;
+}
+
+#content-two {
+    position: relative;
+    height: 70vh;
+}
+
+#content-two-overlay {
+    background-color: rgba(0,0,0,1);
+    height: 70vh;
+}

@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/font/Raleway-Medium.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/font/Raleway-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/font/Raleway-ExtraLight.ttf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/font/Raleway-Thin.ttf');
+    font-weight: 100;
+}
+
+body {
+    font-family: 'Raleway';
+    font-weight: 400;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding:0;
+}
+
+.row {
+    padding: 0;
+}
+
+.row [class^= "col-md"] {
+    padding:0;
+}
+
+.overlay {
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.color-prim {
+    color: #1c355e;
+}
+
+.border-color-prim {
+    border-color: #1c355e;
+}
